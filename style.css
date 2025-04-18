@@ -1,0 +1,132 @@
+:root {
+    --primary-color: white;
+    --secondary-color: rgb(87, 184, 87);
+    --text-color: black;
+    --sec-text-color: rgb(69, 121, 69);
+}
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: url("/main-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#page1 {
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: black;
+}
+
+nav ul {
+    transition: 1s;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    font-weight: bold;
+    font-size: xx-large;
+    display: inline-block;
+    padding: 7.5px;
+}
+
+ul a {
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.heading1 {
+
+    text-align: center;
+    color: white;
+    padding: 275px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+
+}
+
+.gs {
+    display: inline-flex;
+}
+
+.gs a {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.gs a:hover {
+    background-color: #00a2be;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div .transbox {
+    background-size: 100% 100vh;
+    background-color: #1e1f1fbb;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+}
+
+.fcontainer a {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: .5rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    padding: .5rem .81rem;
+    margin: .8rem;
+}
+
+.fcontainer a:hover {
+    transition: 0.5s;
+    background-color: #00a2be;
+}
